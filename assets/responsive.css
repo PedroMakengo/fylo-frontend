@@ -1,0 +1,150 @@
+@media (max-width: 360px) {
+  /* Header */
+  header .containerHeader {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  header .containerHeader img {
+    width: 90px;
+  }
+  
+  .containerHeader nav a + a{
+    margin-left: 0.4rem !important;
+  }
+
+  /* AllContent */
+  .allContent {
+    max-width: 300px;
+    width: 100%;
+    margin: 5rem auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .allContent img {
+    margin-left: 0;
+    margin-bottom: 2rem;
+    width: 300px;
+    order: -1;
+  }
+
+  .allContent  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .allContent p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .describeLocation form button {
+    width: 299px;
+    margin-top: 1rem;
+  }
+
+  /* Background */
+  .stayProductive .backgroundProductive {
+    background-image: url(../images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    /* padding: 50px ; */
+  }
+  .containerProductive {
+    padding-bottom: 7rem;
+  }
+  .containerProductive article {
+    width: 300px;
+    margin: -3rem auto;
+    padding: 2rem !important;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .containerProductive article  h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .containerProductive article > img {
+    order: -1;
+    width: 300px;
+    margin-bottom: 4rem;
+  }
+
+  .containerProductive .contentStaty {
+    width: 100%;
+    padding-top: -15rem;
+  }
+  .containerProductive .contentStaty p  {
+    width: 300px;
+  }
+
+  .contentStaty a {
+    margin: 3rem auto;
+  }
+
+  .contentStaty .cardFounder {
+    width: 245px;
+  }
+
+  .contentStaty .cardFounder p {
+    width: 100%;
+  }
+
+  .getEarly article {
+    max-width: 300px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .getEarly article .getAccessToday {
+    text-align: center;
+    width: 100%;
+  }
+
+  .getEarly article .getAccessToday h1 {
+    font-size: 1.2rem;
+  }
+
+  .getEarly article form {
+    margin-top: 2rem;
+  }
+  .getEarly article form input {
+    width: 270px;
+  }
+  .getEarly form button {
+    width: 300px !important;
+  }
+
+  .footerFylo {
+    max-width: 300px;
+    margin: 0 auto;
+
+    flex-direction: column;
+  }  
+  .footerFylo .footer-item {
+    width: 100%;
+  }
+  .footer-item:first-child ul {
+    margin-top: 1.5rem;
+  }
+
+  .footer-item + .footer-item {
+    margin-top: 3rem;
+    height: auto;
+  }
+  .icones {
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+}

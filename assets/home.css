@@ -1,0 +1,305 @@
+header {
+  margin-top: 2rem;
+}
+
+header .containerHeader {
+  width: 100%;
+  max-width: 1120px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+header .containerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .containerHeader nav a {
+  font-family: Raleway;
+  text-decoration: none;
+  color: #000;
+}
+
+header .containerHeader nav a + a {
+  margin-left: 2.5rem;
+}
+
+/* Content Backgrounnd */
+.allContent {
+  max-width: 1120px;
+  margin: 5rem auto;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.describeLocation h1 {
+  font-family: Raleway;
+  font-size: 2.1rem;
+  line-height: 3rem;
+}
+
+.describeLocation p {
+  font-family: Raleway;
+  font-weight: 500;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+
+.describeLocation form {
+  margin-top: 1rem;
+}
+
+.describeLocation form input {
+  width: 260px;
+  padding: 0.7rem 1rem;
+}
+
+.describeLocation form input::placeholder {
+  color: #00000062;
+}
+
+.describeLocation form button {
+  width: 150px;
+  border: 1px solid var(--blue-300);
+  padding: 0.7rem 1rem;
+  background: var(--blue-300);
+  font-weight: bold;
+  color: white;
+}
+
+.allContent img {
+  margin-left: 2rem;
+  width: 600px;
+}
+
+.stayProductive .backgroundProductive {
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  padding: 50px ;
+}
+
+.containerProductive {
+  background: #F8F8FE;
+}
+
+.containerProductive article {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 5rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentStaty {
+  width: 50%;
+}
+
+.contentStaty h1 {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contentStaty p  {
+  font-family: Raleway;
+  font-weight: 100;
+  font-size: 1rem;
+  width: 500px;
+  list-style: none;
+}
+
+.contentStaty p + p {
+  margin: 1rem 0;
+}
+
+.contentStaty a {
+  width: 180px;
+  color: #8FD8CD;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-decoration: underline;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  
+}
+
+.contentStaty a img {
+  width: 20px !important;
+}
+
+.contentStaty .cardFounder{
+  width: 280px;
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0px 8px 8px 8px rgba(82, 82, 82, 0.041);
+
+  padding: 1.50rem;
+  margin-top: 2rem;
+}
+
+.contentStaty .cardFounder p {
+  width: 100%;
+  font-size: 0.9rem;
+  font-family: Raleway;
+  text-align: start;
+}
+
+.contentStaty .cardFounder::before {
+  content: '"';
+  margin: 0.2rem 0;
+  display: block;
+  font-size: 2rem;
+  font-family: 'Open Sans';
+}
+
+.cardFounder .avatar {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 50px  !important;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.containerProductive article img {
+  width: 40%;
+  right:auto
+}
+
+.getEarly {
+  background: #575989;
+}
+
+.getEarly article {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 4rem 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Raleway;
+  color: #fff;
+}
+
+.getEarly article .getAccessToday{
+  width: 41%;
+}
+
+.getEarly article .getAccessToday h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.getEarly article .getAccessToday p {
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+
+.getEarly article form input {
+  width: 350px;
+  border: 0;
+
+  display: block;
+  padding: 1rem 1rem;
+  background: #fff;
+
+  margin-bottom: 1rem;
+}
+
+.getEarly article form button {
+  width: 200px;
+  padding: 1rem 1rem;
+  background: var(--blue-300);
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  background: #07043B;
+}
+
+.footerFylo {
+  max-width: 1120px;
+  margin: 0 auto;
+
+  padding: 8rem 0;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.footer-item {
+  width: 50%;
+  height: 100px;
+}
+
+.footer-item img.footerFyloLogo {
+  margin-top: -8rem;
+  margin-bottom: 2rem;
+}
+
+.footer-item ul {
+  list-style: none;
+  margin-top: -1rem;
+}
+
+.footer-item li + li{
+  margin-top: 1rem;
+}
+
+.footer-item li img {
+  margin-top: 0rem !important;
+  margin-right: 1rem;
+}
+
+.footer-item a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.footer-item a + a {
+  margin-top: 1.5rem;
+}
+
+.icones {
+  display: flex;
+}
+
+.icones a {
+  display: block;
+  border: 1px solid #fff;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icones a + a {
+  margin-top: 0;
+  margin-left: 1.5rem;
+}
